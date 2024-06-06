@@ -22,7 +22,7 @@ const Index = () => {
   };
 
   return (
-    <Container centerContent maxW="container.md" py={8}>
+    <Container centerContent maxW="container.md" py={8} bgImage="url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxmYXJlc3QlMjBmb3Jlc3R8ZW58MHx8fHwxNjg2MDY0MTYw&ixlib=rb-4.0.3&q=80&w=1080')" bgSize="cover" bgPosition="center" color="white">
       <VStack spacing={8} width="100%">
         <Text fontSize="3xl" fontWeight="bold">
           EcoNet: The Environmental Impact Network
