@@ -24,12 +24,12 @@ const Index = () => {
   return (
     <Container centerContent maxW="container.md" py={8} bgImage="url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxmYXJlc3QlMjBmb3Jlc3R8ZW58MHx8fHwxNjg2MDY0MTYw&ixlib=rb-4.0.3&q=80&w=1080')" bgSize="cover" bgPosition="center" color="white">
       <VStack spacing={8} width="100%">
-        <Text fontSize="3xl" fontWeight="bold">
+        <Text fontSize="3xl" fontWeight="bold" fontFamily="heading">
           EcoNet: The Environmental Impact Network
         </Text>
 
         <Box width="100%">
-          <Text fontSize="2xl" mb={4}>
+          <Text fontSize="2xl" mb={4} fontFamily="heading">
             Carbon Footprint Tracker
           </Text>
           <HStack>
@@ -52,7 +52,7 @@ const Index = () => {
         <Divider />
 
         <Box width="100%">
-          <Text fontSize="2xl" mb={4}>
+          <Text fontSize="2xl" mb={4} fontFamily="heading">
             Eco Challenges
           </Text>
           <HStack spacing={4}>
@@ -68,18 +68,18 @@ const Index = () => {
         <Divider />
 
         <Box width="100%">
-          <Text fontSize="2xl" mb={4}>
+          <Text fontSize="2xl" mb={4} fontFamily="heading">
             Community Projects
           </Text>
           <VStack spacing={4}>
             <Box borderWidth="1px" borderRadius="lg" p={4} width="100%">
-              <Text fontSize="lg" fontWeight="bold">
+              <Text fontSize="lg" fontWeight="bold" fontFamily="heading">
                 Beach Cleanup
               </Text>
               <Text>Join us for a beach cleanup event this weekend.</Text>
             </Box>
             <Box borderWidth="1px" borderRadius="lg" p={4} width="100%">
-              <Text fontSize="lg" fontWeight="bold">
+              <Text fontSize="lg" fontWeight="bold" fontFamily="heading">
                 Tree Planting Drive
               </Text>
               <Text>Help us plant trees in the local park.</Text>
@@ -90,18 +90,18 @@ const Index = () => {
         <Divider />
 
         <Box width="100%">
-          <Text fontSize="2xl" mb={4}>
+          <Text fontSize="2xl" mb={4} fontFamily="heading">
             Educational Content
           </Text>
           <VStack spacing={4}>
             <Box borderWidth="1px" borderRadius="lg" p={4} width="100%">
-              <Text fontSize="lg" fontWeight="bold">
+              <Text fontSize="lg" fontWeight="bold" fontFamily="heading">
                 Sustainability 101
               </Text>
               <Text>Learn the basics of sustainable living.</Text>
             </Box>
             <Box borderWidth="1px" borderRadius="lg" p={4} width="100%">
-              <Text fontSize="lg" fontWeight="bold">
+              <Text fontSize="lg" fontWeight="bold" fontFamily="heading">
                 Eco-Friendly Tips
               </Text>
               <Text>Discover simple tips to reduce your environmental impact.</Text>
@@ -112,7 +112,7 @@ const Index = () => {
         <Divider />
 
         <Box width="100%">
-          <Text fontSize="2xl" mb={4}>
+          <Text fontSize="2xl" mb={4} fontFamily="heading">
             Green Marketplace
           </Text>
           <HStack spacing={4}>
